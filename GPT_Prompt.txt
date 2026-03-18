@@ -1,0 +1,235 @@
+# Role
+You are a senior audio DSP engineer, plugin architect, and product technical lead with expertise in:
+- real-time audio programming
+- guitar amp and cabinet simulation
+- nonlinear DSP
+- VST3 / AU / AAX plugin development
+- C++ and JUCE
+- testing, profiling, packaging, and release engineering
+
+Your job is to design a **complete end-to-end development pipeline** for building a **professional guitar amp simulator plugin** from concept to release.
+
+# Task
+Generate a **full pipeline** for producing a guitar amp simulator plugin, including:
+1. product definition
+2. system architecture
+3. DSP design
+4. plugin framework selection
+5. implementation roadmap
+6. UI/UX plan
+7. testing and QA
+8. optimization and latency strategy
+9. preset and factory content strategy
+10. packaging, deployment, licensing, and release process
+11. post-launch maintenance and future expansion
+
+The output should be detailed enough that a small engineering team could use it as a practical blueprint.
+
+# Background Context
+The target product is a modern guitar amp simulator plugin for desktop DAWs. It should aim to compete with commercial amp sims in sound quality, usability, and performance.
+
+Assume:
+- target platforms: macOS and Windows
+- plugin formats: VST3 and AU at minimum
+- core implementation language: C++
+- preferred framework: JUCE unless a better alternative is justified
+- real-time performance and low latency are critical
+- the product should support clean, crunch, and high-gain tones
+- cabinet simulation, tone stack behavior, gain staging, and feel are important
+- a future roadmap may include pedals, oversampling options, IR loading, and stereo processing
+
+# Instructions
+Produce a structured plan with clear Markdown headings.
+
+For each stage of the pipeline, include:
+- objective
+- key technical decisions
+- recommended tools / frameworks / methods
+- risks and tradeoffs
+- deliverables
+- team roles involved
+- estimated sequencing / dependencies
+
+Cover the following areas in depth:
+
+## 1. Product and Requirements Definition
+- target users
+- core feature set
+- MVP vs v1 vs future roadmap
+- competitive feature benchmarking
+- technical requirements
+- audio quality goals
+- CPU / memory / latency targets
+
+## 2. DSP and Sound Design Pipeline
+Explain how to design the signal chain, including:
+- input stage
+- preamp modeling
+- tone stack
+- power amp modeling
+- output transformer considerations
+- speaker / cabinet simulation
+- IR support
+- oversampling strategy
+- anti-aliasing strategy
+- nonlinear processing choices
+- noise gate, EQ, reverb, or utility modules if appropriate
+
+Discuss modeling approaches such as:
+- white-box / circuit-inspired modeling
+- black-box / data-driven approaches
+- hybrid modeling
+- waveshaping and state-space methods
+- convolution for cabinets
+- tradeoffs between realism, CPU use, and implementation complexity
+
+## 3. Software Architecture
+Define:
+- module boundaries
+- DSP engine architecture
+- parameter system
+- preset system
+- serialization
+- automation handling
+- threading model
+- separation of real-time safe vs non-real-time code
+- asset management for IRs / presets / skins
+- cross-platform build strategy
+
+## 4. Development Stack
+Recommend:
+- language and standards
+- plugin framework
+- DSP libraries if needed
+- testing tools
+- profiling tools
+- CI/CD approach
+- version control conventions
+- issue tracking and documentation tools
+
+## 5. Implementation Roadmap
+Break the work into phases such as:
+- research
+- prototyping
+- DSP proof of concept
+- plugin shell setup
+- core amp model implementation
+- cabinet section
+- UI integration
+- preset system
+- beta testing
+- optimization
+- release candidate
+- launch
+
+For each phase, include:
+- goals
+- outputs
+- entry and exit criteria
+- dependencies
+- likely blockers
+
+## 6. UI / UX Pipeline
+Describe:
+- control layout
+- visual metaphor
+- preset browsing workflow
+- gain staging visualization
+- input / output metering
+- oversampling / quality settings UX
+- IR loader UX
+- scaling / HiDPI support
+- accessibility and usability considerations
+
+## 7. Testing and Verification
+Create a test strategy covering:
+- DSP correctness
+- regression tests
+- null / reference comparisons where useful
+- latency verification
+- automation tests
+- sample-rate tests
+- buffer-size tests
+- denormal handling
+- stress testing
+- host compatibility testing
+- cross-platform QA
+- listening tests and blind evaluation workflow
+
+## 8. Performance and Real-Time Constraints
+Explain how to manage:
+- CPU budget
+- memory allocations
+- lock-free design
+- denormals
+- SIMD opportunities
+- oversampling cost
+- thread safety
+- startup time
+- asset loading
+- crash resilience
+
+## 9. Release Engineering and Business Pipeline
+Include:
+- installer / packaging flow
+- code signing and notarization
+- copy protection / licensing options
+- telemetry considerations
+- documentation
+- onboarding tutorial content
+- factory preset curation
+- support workflow
+- bug triage
+- versioning policy
+
+## 10. Post-Launch Roadmap
+Suggest:
+- feature expansion path
+- additional amp models
+- pedal integration
+- cloud preset sharing
+- machine-learning-assisted tone matching
+- mobile or standalone app version
+- long-term maintenance priorities
+
+# Reasoning Guidance
+Think step by step before writing the final answer.
+Internally:
+1. identify the major workstreams
+2. map dependencies between them
+3. separate MVP from advanced features
+4. identify the highest technical risks
+5. propose mitigations
+6. turn that into an actionable pipeline
+
+Then provide only the final structured answer.
+
+# Verification Step
+Before finalizing, check that your plan:
+- covers the full lifecycle from concept to shipping
+- distinguishes DSP design from software architecture
+- addresses real-time audio constraints
+- includes testing and release engineering
+- is practical for a real development team
+- notes assumptions clearly where certainty is not possible
+
+# Output Format
+Return the response in this exact structure:
+
+1. **Executive Summary**
+2. **Assumptions**
+3. **Full Development Pipeline**
+   - use numbered phases
+4. **Recommended Tech Stack**
+5. **DSP Architecture Proposal**
+6. **Testing and QA Plan**
+7. **Top Risks and Mitigations**
+8. **Example Team Structure**
+9. **Example Timeline**
+10. **MVP vs Future Features**
+11. **Final Recommendations**
+
+Use concise but substantial explanations.
+Prefer tables where useful.
+Be specific, practical, and implementation-oriented.
+Do not give vague generic advice.
