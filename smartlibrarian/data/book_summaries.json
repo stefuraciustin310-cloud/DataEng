@@ -1,0 +1,82 @@
+[
+  {
+    "id": "book_001",
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "short_summary": "A lonely boy discovers he is a wizard and begins studying at Hogwarts, where he forms close friendships and uncovers a dangerous mystery.",
+    "full_summary": "Harry Potter grows up feeling unwanted until he learns that he is a wizard and is invited to Hogwarts School of Witchcraft and Wizardry. There he becomes friends with Ron and Hermione, and for the first time he feels that he belongs somewhere. As the school year continues, the three friends investigate clues surrounding a hidden magical object known as the Sorcerer's Stone. Their search leads them into a confrontation with dark magic, where Harry must show courage, loyalty, and trust in his friends.",
+    "themes": ["friendship", "magic", "courage", "school", "adventure"]
+  },
+  {
+    "id": "book_002",
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "short_summary": "Bilbo Baggins leaves his quiet home to join a risky journey involving dwarves, treasure, and a dragon.",
+    "full_summary": "Bilbo Baggins is a comfort-loving hobbit who is unexpectedly pulled into an adventure by the wizard Gandalf and a company of dwarves. Their mission is to reclaim treasure guarded by the dragon Smaug. Along the way, Bilbo faces trolls, goblins, giant spiders, and other dangers that force him to grow braver than he ever imagined. By the end of the journey, he has changed from a cautious homebody into someone capable of courage, cleverness, and leadership.",
+    "themes": ["adventure", "courage", "growth", "dragons", "journey"]
+  },
+  {
+    "id": "book_003",
+    "title": "1984",
+    "author": "George Orwell",
+    "short_summary": "In a totalitarian society ruled by surveillance and propaganda, Winston Smith begins quietly rebelling against the system.",
+    "full_summary": "Winston Smith lives in a society where the government controls language, history, and even private thought. He becomes increasingly disturbed by the constant surveillance and the manipulation of truth carried out by the Party. Winston tries to recover a sense of personal freedom and genuine human connection, but the system around him is brutally powerful. The novel explores how fear, control, and propaganda can destroy individual identity and resistance.",
+    "themes": ["dystopia", "surveillance", "social control", "freedom", "rebellion"]
+  },
+  {
+    "id": "book_004",
+    "title": "The Hunger Games",
+    "author": "Suzanne Collins",
+    "short_summary": "Katniss Everdeen enters a deadly televised competition and becomes a symbol of resistance in a harsh dystopian world.",
+    "full_summary": "In the nation of Panem, the Capitol forces children from each district to fight in a public event called the Hunger Games. Katniss volunteers to protect her younger sister and must rely on intelligence, survival skills, and emotional control to stay alive. As she navigates alliances and public performance, she begins to challenge the authority behind the games. Her actions make her more than a survivor; they make her a dangerous symbol of rebellion.",
+    "themes": ["dystopia", "survival", "resistance", "courage", "media control"]
+  },
+  {
+    "id": "book_005",
+    "title": "The Book Thief",
+    "author": "Markus Zusak",
+    "short_summary": "A young girl in Nazi Germany discovers the power of books, language, and kindness during wartime.",
+    "full_summary": "Liesel Meminger is sent to live with foster parents in Germany during World War II. As war and propaganda shape daily life, she develops a deep love of books and words, even stealing books to preserve stories and meaning around her. Her family hides a Jewish man, which brings both danger and moral courage into their home. The novel shows how humanity, friendship, and language can survive even in times of fear and violence.",
+    "themes": ["war", "humanity", "loss", "kindness", "resistance"]
+  },
+  {
+    "id": "book_006",
+    "title": "All Quiet on the Western Front",
+    "author": "Erich Maria Remarque",
+    "short_summary": "Young soldiers experience the brutal physical and emotional cost of war on the front lines.",
+    "full_summary": "Paul Bäumer and his classmates join the army with patriotic hopes, but those illusions quickly collapse in the trenches of World War I. The soldiers endure constant fear, exhaustion, injury, and death while trying to protect one another. Paul’s reflections reveal how war destroys not only bodies but also identity, innocence, and the future. The novel is a powerful anti-war story centered on friendship, survival, and trauma.",
+    "themes": ["war", "friendship", "trauma", "survival", "loss"]
+  },
+  {
+    "id": "book_007",
+    "title": "The Giver",
+    "author": "Lois Lowry",
+    "short_summary": "In a controlled society without pain or choice, Jonas learns hidden truths about memory, emotion, and freedom.",
+    "full_summary": "Jonas lives in a community where everything is carefully controlled in the name of safety and order. He is chosen to receive the memories of the past from an old man known as the Giver. Through those memories, Jonas discovers love, suffering, beauty, and individuality, all of which his society has tried to erase. As he understands what has been sacrificed for stability, he must decide whether to accept the system or escape it.",
+    "themes": ["memory", "identity", "freedom", "social control", "coming of age"]
+  },
+  {
+    "id": "book_008",
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "short_summary": "In a society where books are banned and burned, a fireman begins questioning everything he has been taught.",
+    "full_summary": "Guy Montag works as a fireman, but in his world firemen burn books instead of saving people from fires. At first he follows the rules without question, but encounters with curious and independent thinkers make him uneasy. He gradually realizes that censorship and shallow entertainment have emptied society of reflection and meaning. His awakening pushes him toward rebellion and the search for knowledge.",
+    "themes": ["censorship", "knowledge", "freedom", "rebellion", "society"]
+  },
+  {
+    "id": "book_009",
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "short_summary": "Paul Atreides is drawn into a struggle for power, survival, and destiny on the desert planet Arrakis.",
+    "full_summary": "Paul Atreides arrives on Arrakis with his family, only to be thrown into betrayal, conflict, and political struggle. Arrakis is both harsh and valuable because it produces the spice that powers the empire. As Paul survives the desert and joins the Fremen, he begins to grow into a leader shaped by prophecy, responsibility, and difficult choices. The novel combines survival, politics, identity, and power in a vast science-fiction setting.",
+    "themes": ["politics", "survival", "destiny", "power", "identity"]
+  },
+  {
+    "id": "book_010",
+    "title": "A Wizard of Earthsea",
+    "author": "Ursula K. Le Guin",
+    "short_summary": "A talented young mage must face the consequences of his pride and learn balance, discipline, and self-knowledge.",
+    "full_summary": "Ged is a gifted boy who enters a school of magic and quickly becomes powerful, but his pride leads him to unleash a dark shadow he cannot control. His journey becomes less about proving his strength and more about understanding himself and accepting responsibility for what he has done. Across islands and dangerous encounters, he learns that real wisdom requires balance, humility, and maturity. The novel blends magic and adventure with a strong theme of identity and inner growth.",
+    "themes": ["magic", "identity", "growth", "responsibility", "adventure"]
+  }
+]
