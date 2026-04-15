@@ -1,0 +1,6 @@
+pardoned_absence_id,employee_id,employee_name,employee_email,department,start_date,end_date,reason,approval_status,document_reference,approved_by
+3004,103,Carla Dumitrescu,carla.dumitrescu@example.com,Data,2026-03-12,2026-03-13,University exam,Approved,UNI-3004,Student Affairs
+3003,104,Dan Marin,dan.marin@example.com,Operations,2026-03-15,2026-03-16,Academic administration,Approved,UNI-3003,Student Affairs
+3001,105,Elena Radu,elena.radu@example.com,Data,2026-03-12,2026-03-12,Course attendance,Approved,UNI-3001,Student Affairs
+3002,106,Filip Stoica,filip.stoica@example.com,Engineering,2026-03-18,2026-03-18,Mandatory lab,Approved,UNI-3002,Student Affairs
+3005,107,Georgia Pavel,georgia.pavel@example.com,HR,2026-03-24,2026-03-25,Thesis defense,Approved,UNI-3005,Student Affairs

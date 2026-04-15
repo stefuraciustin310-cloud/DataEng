@@ -1,0 +1,8 @@
+holiday_id,holiday_date,holiday_name,holiday_type,applies_to
+1,2026-01-01,New Year's Day,National Holiday,All Employees
+2,2026-01-02,Day after New Year's Day,National Holiday,All Employees
+3,2026-01-24,Union Day,National Holiday,All Employees
+4,2026-04-10,Good Friday,National Holiday,All Employees
+5,2026-04-12,Easter Sunday,National Holiday,All Employees
+6,2026-04-13,Easter Monday,National Holiday,All Employees
+7,2026-05-01,Labour Day,National Holiday,All Employees
